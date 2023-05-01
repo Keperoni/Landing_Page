@@ -7,12 +7,16 @@ body {
     margin: 0;
 }
 
+.header,
+.layer1 {
+    padding-left: 160px;
+    padding-right: 160px;
+}
+
 .header {
     background-color: #1f2937;
     width: auto;
     height: 65px;
-    padding-left: 120px;
-    padding-right: 120px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,5 +35,55 @@ body {
     color: #E5E7EB;
     padding: 0;
     margin: 0;
+}
+
+.layer1 {
+    background-color: #1f2937;
+    width: auto;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    
+.layer1-hero-main {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+    }
+    
+.layer1-hero-secundary {
+    font-size: 18px;
+    color: #E5E7EB;
+    }
+    
+button {
+    padding: 8px 16px;
+    border-radius: 8px;
+    }
+    
+button.sign-up {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: 700;
+    }
+
+.layer1-left {
+}
+
+.layer1-right {
+    color: #E5E7EB;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: visible;
+}
+
+.layer1-right img {
+    max-width: 70%;
+    width: 70%;
+    min-width: 200px;
 }
 
