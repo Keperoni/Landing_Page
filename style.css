@@ -6,8 +6,8 @@ body {
 .header,
 .layer1,
 .layer2 {
-    padding-left: 160px;
-    padding-right: 160px;
+    padding-left: 10vw;
+    padding-right: 10vw;
 }
 
 .header {
@@ -133,4 +133,31 @@ button.sign-up {
     font-size: 18px;
     color: gray;
     text-align: center;
+}
+
+.layer3 {
+    background-color: #E5E7EB;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20vw;
+    padding-right: 20vw;
+}
+
+.layer3-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.layer3-quote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.layer3-author {
+    text-align: end;
+    font-weight: 700;
 }
