@@ -194,3 +194,12 @@ button {
     border-style: solid;
 }
 
+.footer {
+    background-color: #1f2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65px;
+
+}
