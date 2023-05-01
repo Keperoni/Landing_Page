@@ -10,3 +10,5 @@ Landing Page (TOP)
 "Street Lights" by Jose Francisco Fernandez Saura (pexels.com)
 
 "Brooklyn Bridge, New York" by Chris Molloy (pexels.com)
+
+7 hours later, I've learned maybe it's a better idea to define padding based on vw instead of pixels when it comes to centering the content on the page.
